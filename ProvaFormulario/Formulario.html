@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <script src="./js/scripts.js" defer></script>
+</head>
+<body>
+    <div>
+        <h1>Formulário</h1>
+        <br>
+    </div>
+
+    <form>
+        <div>
+            <label>NOME</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite o seu Nome">
+        </div>
+
+        <div>
+            <label>E-MAIL</label>
+            <input type="text" name="email" id="email" placeholder="Digite seu E-mail">
+        </div>
+
+        <div>
+            <label>IDADE</label>
+            <input type="text" name="idade" id="idade" placeholder="Digite sua Idade">
+        </div>
+
+        <div>
+            <label>MAIOR IDADE</label>
+            <input type="radio" name = "maioridade" value="true" id="midade">SIM
+            <input type="radio" name = "maioridade" value="false" id="midade">NÃO
+        </div>
+
+        <div>
+            <label>DESEJA RECEBER NEWSLETTER</label> 
+            <input type="checkbox" name="newsletter" id="newsletter" value="true">
+        </div>
+
+        <div>
+            <label>MENSAGEM</label>
+            <input type="textarea" name="mensagem" id="mensagem" placeholder="Digite uma Mensagem">
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <input type="submit" name="enviar" id="send" value="ENVIAR">
+            <input type="reset" name="limpar" value="LIMPAR">
+        </div>
+    </form>
+    
+</body>
+</html>
